@@ -191,7 +191,7 @@ html,body{
         color: white;
     }
     .movie-title{
-        top: 50%;
+        top: 60%;
         left: 40%;
         position: absolute;
         transform: translate(-50%,-80%);
