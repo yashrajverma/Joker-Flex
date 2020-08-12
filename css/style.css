@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin:0;
+    padding: 0;
+    font-family: "Prison AOE" , "Gothic-Joker";
+    scroll-behavior: smooth;
+}
+.back{
+    background-image: url("../resources/joker.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+    height: 140vh;
+}
+.movie-title{
+    top: 50%;
+    left: 25%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.movie-title .h1{
+    color: white;
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    text-shadow: 0 0 15px rgba(255,255,255,0.7);
+}
+.desc{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    max-width: 600px;
+}
+.desc>p{
+    color: white;
+    font-family: Gothic-Joker,SansSerif;
+    opacity: 70%;
+}
+.navbar{
+    float: right;
+    height: 100%;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    display: block;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width:640px ){
+    .back{
+        background-image: url("../resources/joker.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        width:100%;
+        height: 100%;
+    }
+    .desc{
+        letter-spacing: 1px;
+        max-width: 300px;
+    }
+    .desc>p{
+        font-size: 1rem;
+        color: white;
+        font-family: Gothic-Joker,SansSerif;
+        opacity: 70%;
+    }
+    .navbar{
+        float: left;
+        height: 100%;
+        width: 100%;
+    }
+    .navbar ul{
+        list-style: none;
+    }
+    .navbar ul li{
+        display: inline-block;
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    .movie-title{
+        top: 50%;
+        left: 25%;
+        position: absolute;
+        transform: translate(-50%,-80%);
+    }
+
+    .movie-title .h1{
+        color: white;
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+        text-shadow: 0 0 15px rgba(255,255,255,0.7);
+    }
+}
+@media screen and (max-width:740px ){
+    .back{
+        background-image: url("../resources/joker.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        width: 100%;
+        height: 100vh;
+    }
+    .desc{
+        letter-spacing: 1px;
+        max-width: 300px;
+    }
+    .desc>p{
+        font-size: 1rem;
+        color: white;
+        font-family: Gothic-Joker,SansSerif;
+        opacity: 70%;
+    }
+    .navbar{
+        float: left;
+        height: 100%;
+        width: 100%;
+    }
+    .navbar ul{
+        list-style: none;
+    }
+    .navbar ul li{
+        display: inline-block;
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    .movie-title{
+        top: 50%;
+        left: 33%;
+        position: absolute;
+        transform: translate(-50%,-80%);
+    }
+
+    .movie-title .h1{
+        color: white;
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+        text-shadow: 0 0 15px rgba(255,255,255,0.7);
+    }
+}
+@media screen and (max-width:540px ){
+    .back{
+        background-image: url("../resources/joker.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        width: 100%;
+        height: 100vh;
+    }
+    .desc{
+        letter-spacing: 1px;
+        max-width: 300px;
+    }
+    .desc>p{
+        font-size: 1rem;
+        color: white;
+        font-family: Gothic-Joker,SansSerif;
+        opacity: 70%;
+    }
+    .navbar{
+        float: left;
+        height: 100%;
+        width: 100%;
+    }
+    .navbar ul{
+        list-style: none;
+    }
+    .navbar ul li{
+        display: inline-block;
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    .movie-title{
+        top: 50%;
+        left: 40%;
+        position: absolute;
+        transform: translate(-50%,-80%);
+    }
+
+    .movie-title .h1{
+        color: white;
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+        text-shadow: 0 0 15px rgba(255,255,255,0.7);
+    }
+}
+
+
